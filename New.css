@@ -1,6 +1,7 @@
 body{
     background-color: rgb(0, 0, 0);
     padding: 0;
+    margin: 0;
 }
 
 .opening-container p{
@@ -10,13 +11,13 @@ body{
 .background{
     background-color:rgb(0, 0, 0);
     border: none;
+    margin: 0;
+    padding: 0;
 }   
 
 .kuroneko{
     font-size: 50px;
     font-family: Nosifer;
-    margin-left: 10px;
-    margin-right: 10px;
     text-align: center;
 }
 
@@ -28,8 +29,6 @@ body{
 .description{
     font-size: 22px;
     font-family: Roboto;
-    margin-left: 10px;
-    margin-right: 10px;
     text-align: center;
     font-weight: bold;
 }
@@ -62,7 +61,7 @@ body{
     box-shadow: 0 4px 20px -7px rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .kuroneko{
         font-size: 30px;
     }
@@ -215,7 +214,7 @@ body{
     margin: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .img1{
         width: 70%;
         margin-top: 30px;
@@ -224,7 +223,7 @@ body{
     }
     
     .fourthline{
-        font-size: 16px;
+        font-size: 14px;
         font-family: Roboto;
         margin-left: 25px;
         margin-right: 10px;
@@ -232,7 +231,7 @@ body{
     }
     
     .fifthline{
-        font-size: 16px;
+        font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 25px;
         margin-right: 10px;
@@ -249,7 +248,7 @@ body{
         margin-bottom: 20px;
     }
     .sixthline{
-        font-size: 16px;
+        font-size: 14px;
         font-family: Roboto;
         margin-left: 25px;
         margin-right: 10px;
@@ -267,7 +266,7 @@ body{
     }
     
     .seventhline{
-        font-size: 16px;
+        font-size: 14px;
         font-family: Roboto;
         margin-left: 25px;
         margin-right: 10px;
@@ -294,10 +293,7 @@ body{
 
 .myChart{
     margin-top: 200px;
-    border-top: 1px solid rgb(255, 255, 255);
     padding-top: 30px;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .chart-heading {
@@ -312,15 +308,15 @@ body{
     font-family: Roboto;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     margin: 0 auto;
     width: fit-content;
     box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 8px 32px;
+    padding: 4px 8px;
     color: #ffffff;
     transition: all 400ms ease;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .token-stats:hover{
@@ -345,12 +341,10 @@ body{
     color: #e63946;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .myChart{
         border-top: none;
         padding-top: 30px;
-        max-width: 100%;
-        max-height: 100%;
     }
     
     .chart-heading{
@@ -365,20 +359,20 @@ body{
         display: flex;
         align-items: center;
         justify-content: left;
-        gap: 10px;
+        gap: 30;
         margin: 0 auto;
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
         padding-right: 40px;
         padding-left: 0;
     } 
     .token-stats .details ul li{
-        font-size: 14px;
+        font-size: 11px;
         text-transform: uppercase;
-        margin-right: 10px;
-        margin-left: -20px;
-        margin-top: 20px;
+        margin-left: -25px;
         font-weight: bold;
+        float: left;
     }
 }
 
@@ -445,12 +439,12 @@ body{
     color: #8a02c0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .supply{
         font-family: Roboto;
         font-weight: bold;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
-        border-radius: 400px;
+        border-radius: 100%;
         padding: 20px;
         padding-bottom: 15px;
         color: hsl(0, 0%, 100%)0%, 100%;
@@ -460,26 +454,29 @@ body{
         width: 40%;
         height: 40%;
         margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .total{
-        margin-top: 0px;
+        margin-top: 5px;
+        font-size: 18px;
     }
     
     .number{
         color: #8a02c0;
+        font-size: 18px;
     }
 }
 
 .taxes{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 30px;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
-    max-width: 80%;
-    max-height: 80%;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .buy{
@@ -490,11 +487,7 @@ body{
     padding-bottom: 0;
     color: #ffffff;
     transition: all 400ms ease;
-    width: 280px;
-    height: 350px;
     padding-left: 45px;
-    max-width: 90%;
-    max-height: 90%;
 }
 
 .buy:hover{
@@ -531,8 +524,6 @@ body{
     width: 280px;
     height: 350px;
     padding-left: 60px;
-    max-width: 80%;
-    max-height: 80%;
 }
 
 .sell:hover{
@@ -565,6 +556,43 @@ body{
     color: #e63946;
     font-weight: bold;
 }
+
+@media screen and (max-width: 500px) {
+    .buy{
+        width: 50%;
+    }
+    
+    
+    .buytax{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(16, 184, 16);
+    }
+    
+    .buy ul{
+        list-style: none;
+        font-size: 18px;
+        color: white;
+    }
+    
+   
+    .sell{
+        width: 50%;
+    }
+    
+    .selltax{
+        font-size: 16px;
+        font-weight: bold;
+        color: #e63946;
+    }
+    
+    .sell ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    
+}
+
 
 @media screen and (max-width: 600px) {
     .taxes{
@@ -712,7 +740,6 @@ body{
 }
 
 .roadmap{
-    border-top: 1px solid white;
     margin-top: 200px;
     padding-top: 100px;
 }
@@ -768,7 +795,7 @@ body{
     margin: 36px 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .roadmap{
         border-top: none;
     }
@@ -776,31 +803,31 @@ body{
 
     .road{
         font-family: Nosifer;
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .road1{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: right;
-        padding-right: 40px;
+        justify-content: left;
+        padding-right: 25px;
     }
     
     .cat1{
         rotate: 270deg;
-        width: 60%;
+        width: 100%;
     }
     
     .q1note{
-        width: 530px;
-        height:80%;
+        width: 100%;
         margin-left: 0;
+        padding-left: 0;
     }
     
     .q1note ul{
         list-style: none;
-        font-size: 16px;
+        font-size: 14px;
     }
     
     .q1note ul li{
@@ -962,7 +989,16 @@ body{
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
+    .road2{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+    
     .q2note{
         font-family: Roboto;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
@@ -971,8 +1007,7 @@ body{
         padding-right: 20px;
         color: #ffffff;
         transition: all 400ms ease;
-        width: 80%;
-        height: 600px;
+        width: 100%;
       
     }
     
@@ -986,8 +1021,8 @@ body{
     }
     
     .catsquat{
-        width: 80%;
-        margin-left: 10px;
+        width: 70%;
+        margin-right: -170px;
     }
     
 }
@@ -1104,16 +1139,19 @@ body{
     margin-right: -200px;
 }
 
-@media screen and (max-width:480px) {
-    .road3{
-        justify-content:right;
-        padding-right: 40px;
-    }
+@media screen and (max-width:500px) {    
+.road3{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
     
     .q3note{
         padding-right: 20px;
-        padding-left: -10px;
-        width: 60%;
+        width: 100%;
     }
     
     .q3note ul{
@@ -1122,13 +1160,12 @@ body{
     }
     
     .q3note ul li{
-        margin: 10px 0;
+       
     }
     
     .catface{
-        width: 50%;
-        margin-right: 0;
-        margin-left: 90px;
+        width: 60%;
+        margin-left: 50px;
     }
     
 }
@@ -1246,19 +1283,17 @@ body{
     margin:40px 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .swap{
-        border-top: 1px solid black;
         margin-top: 100px;
         padding-top: 30px;
         padding-right: 10px;
         background-color: rgb(0, 0, 0);
-        border-top: 1px solid white;
         margin-bottom: 0;
         padding-bottom: 10px;
     }
     .swapcat{
-        width: 60%;
+        width: 55%;
     }
     .jijiswap{
         font-family: Roboto;
@@ -1266,16 +1301,16 @@ body{
         color: white;
         text-shadow: 2px 6px rgb(37, 36, 36);
         flex: 1;
-        margin-right: -160px;
+        margin-right: -120px;
     }
     
     .p2{
-        font-size: 80px;
+        font-size: 70px;
     }
     
     .p1{
         margin-top: 30px;
-        font-size: 80px;
+        font-size: 70px;
         margin-bottom: -40px;
     }
     
@@ -1307,7 +1342,6 @@ body{
         margin-top: 100px;
         padding-top: 50px;
         background-color: black;
-        border-top: 1px solid white;
         margin-bottom: 0;
         padding-bottom: 20px;
     }
@@ -1722,12 +1756,11 @@ body{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .contact p{
         font-size: 30px;
     }
     .contact{
-        border-top: 1px solid rgb(255, 255, 255);
         padding-top: 30px;
     }
 }
@@ -1760,11 +1793,11 @@ body{
 }
 
 .copyright{
-    margin-top: 200px;
+    margin-top: 100px;
     padding-bottom: 40px;
 }
 
-.copyright h2{
+.copyright p{
     font-family: Roboto;
     text-align: center;
     color: white
@@ -1820,7 +1853,7 @@ body{
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .tg{
         width: 60px;
         margin: 10px;
@@ -1840,15 +1873,16 @@ body{
    }
    .support{
     padding-top: 3px;
+    background-color: rgb(0, 0, 0);
    }
-   .copyright h2{
-    font-size: 12px;
+   .copyright p{
+    font-size: 10px;
     padding-top: 20px;
-    text-align: left;
-    margin-left: -90px;
+    text-align: center;
    }
    .copyright{
     margin-bottom: 4px;
+    width: 100%;
    }
 
    .firstrow{
