@@ -1,6 +1,6 @@
 body{
     background-color: rgb(0, 0, 0);
-    width: 100%;
+    padding: 0;
 }
 
 .opening-container p{
@@ -10,9 +10,7 @@ body{
 .background{
     background-color:rgb(0, 0, 0);
     border: none;
-    margin-left: -8px;
-}    
-
+}   
 
 .kuroneko{
     font-size: 50px;
@@ -66,7 +64,7 @@ body{
 
 @media screen and (max-width: 500px) {
     .kuroneko{
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .kuro-container{
@@ -87,8 +85,8 @@ body{
     
     
     .img5{
-        width: 35%;
-        margin-top: 20px;
+        width: 50%;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -156,10 +154,11 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 100px;
+    border-radius: 50px;
     margin-top: 60px;
     transition: all 400ms ease;
     box-shadow: 5px 8px 20px -2px rgb(255, 255, 255);
+    margin-bottom: 30px;
 }
 .sixthline{
     font-size: 24px;
@@ -221,12 +220,13 @@ body{
         width: 70%;
         margin-top: 30px;
         margin-bottom: 20px;
+        border-radius: 50px;
     }
     
     .fourthline{
         font-size: 16px;
         font-family: Roboto;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-right: 10px;
         color: white;
     }
@@ -234,57 +234,59 @@ body{
     .fifthline{
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-right: 10px;
         color: white;
     }
     
     .text1{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
     .img2{
         width: 70%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .sixthline{
         font-size: 16px;
         font-family: Roboto;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-right: 10px;
         color: white;
     }
     
     .text2{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
     .img3{
         width: 70%;
+        border-radius: 50px;
     }
     
     .seventhline{
         font-size: 16px;
         font-family: Roboto;
-        margin-left: 20px;
+        margin-left: 25px;
         margin-right: 10px;
         color: white;
     }
     
     .text3{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
     .img4{
         width: 70%;
         display: block;
+        border-radius: 50px;
     }
     
     .text4{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
@@ -344,9 +346,16 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    .myChart{
+        border-top: none;
+        padding-top: 30px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
     .chart-heading{
         font-family: Nosifer;
-        font-size: 20px;
+        font-size: 23px;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -358,7 +367,7 @@ body{
         justify-content: left;
         gap: 10px;
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
         margin-bottom: 20px;
         padding-right: 40px;
         padding-left: 0;
@@ -760,6 +769,11 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    .roadmap{
+        border-top: none;
+    }
+    
+
     .road{
         font-family: Nosifer;
         font-size: 40px;
@@ -770,17 +784,17 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: right;
-        padding-right: 65px;
+        padding-right: 40px;
     }
     
     .cat1{
         rotate: 270deg;
-        height: 320px;
+        width: 60%;
     }
     
     .q1note{
         width: 530px;
-        height: 450px;
+        height:80%;
         margin-left: 0;
     }
     
@@ -790,7 +804,7 @@ body{
     }
     
     .q1note ul li{
-        margin: 36px 0;
+        margin: 10px 0;
     }
     
 }
@@ -957,9 +971,9 @@ body{
         padding-right: 20px;
         color: #ffffff;
         transition: all 400ms ease;
-        width: 530px;
+        width: 80%;
         height: 600px;
-        margin-left: 40px;
+      
     }
     
     .q2note ul{
@@ -968,7 +982,7 @@ body{
     }
     
     .q2note ul li{
-        margin: 30px 0;
+        margin: 10px 0;
     }
     
     .catsquat{
@@ -986,7 +1000,7 @@ body{
         padding: 4px;
         color: #ffffff;
         transition: all 400ms ease;
-        width: 400px;
+        width: 80%;
         margin-left: 0;
         height: 300px;
     }
@@ -1093,7 +1107,7 @@ body{
 @media screen and (max-width:500px) {
     .road3{
         justify-content:right;
-        padding-right: 60px;
+        padding-right: 40px;
     }
     
     .q3note{
@@ -1104,7 +1118,7 @@ body{
     
     .q3note ul{
         list-style: none;
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .q3note ul li{
@@ -1237,14 +1251,14 @@ body{
         border-top: 1px solid black;
         margin-top: 100px;
         padding-top: 30px;
-        padding-right: 40px;
+        padding-right: 10px;
         background-color: rgb(0, 0, 0);
         border-top: 1px solid white;
         margin-bottom: 0;
         padding-bottom: 10px;
     }
     .swapcat{
-        width: 180px;
+        width: 60%;
     }
     .jijiswap{
         font-family: Roboto;
@@ -1830,8 +1844,8 @@ body{
    .copyright h2{
     font-size: 12px;
     padding-top: 20px;
-    text-align: center;
-    margin-left: -70px;
+    text-align: left;
+    margin-left: -90px;
    }
    .copyright{
     margin-bottom: 4px;
