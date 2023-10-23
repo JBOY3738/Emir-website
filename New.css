@@ -13,16 +13,6 @@ body{
     margin-left: -8px;
 }    
 
-.img6{
-    width: 40%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 250px;
-    transition: all 400ms ease;
-    box-shadow: 0 4px 12px -2px rgba(255, 254, 254, 0.3);
-}
 
 .kuroneko{
     font-size: 50px;
@@ -74,15 +64,53 @@ body{
     box-shadow: 0 4px 20px -7px rgba(0, 0, 0, 0.3);
 }
 
-.thirdline{
-    text-align: center;
-    font-family: Roboto;
-    font-size: 26px;
-    margin-top:0px;
-    text-shadow: 2px 2px rgb(219, 216, 215);
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+@media screen and (max-width: 500px) {
+    .kuroneko{
+        font-size: 25px;
+    }
+    
+    .kuro-container{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .description{
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    
+    .description-container{
+        width: 80%;
+        margin: auto;
+        margin-top: -20px;
+    }
+    
+    
+    .img5{
+        width: 35%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 250px;
+        transition: all 400ms ease;
+        box-shadow: 0 4px 12px -2px rgba(255, 254, 254, 0.671);
+    }
+
+    .tg{
+        width: 60px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+    .twitter{
+        width: 60px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
 }
 
 .img1{
@@ -188,6 +216,80 @@ body{
     margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+    .img1{
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .fourthline{
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .fifthline{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .text1{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .img2{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .sixthline{
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .text2{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .img3{
+        width: 70%;
+    }
+    
+    .seventhline{
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .text3{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .img4{
+        width: 70%;
+        display: block;
+    }
+    
+    .text4{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+
 .myChart{
     margin-top: 200px;
     border-top: 1px solid rgb(255, 255, 255);
@@ -244,24 +346,22 @@ body{
 @media screen and (max-width: 500px) {
     .chart-heading{
         font-family: Nosifer;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         margin-bottom: 30px;
     }
     .token-stats{
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 8px;
         display: flex;
         align-items: center;
         justify-content: left;
         gap: 10px;
         margin: 0 auto;
-        width: 80%;
-        box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
-        border-radius: 20px;
-        color: #ffffff;
-        transition: all 400ms ease;
+        width: 70%;
         margin-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 0;
     } 
     .token-stats .details ul li{
         font-size: 14px;
@@ -659,6 +759,41 @@ body{
     margin: 36px 0;
 }
 
+@media screen and (max-width: 500px) {
+    .road{
+        font-family: Nosifer;
+        font-size: 40px;
+    }
+    
+    .road1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+        padding-right: 65px;
+    }
+    
+    .cat1{
+        rotate: 270deg;
+        height: 320px;
+    }
+    
+    .q1note{
+        width: 530px;
+        height: 450px;
+        margin-left: 0;
+    }
+    
+    .q1note ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    
+    .q1note ul li{
+        margin: 36px 0;
+    }
+    
+}
 
 @media screen and (max-width: 600px) {
     .roadmap{
@@ -813,6 +948,36 @@ body{
     width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+    .q2note{
+        font-family: Roboto;
+        box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
+        border-radius: 20px;
+        padding: 4px;
+        padding-right: 20px;
+        color: #ffffff;
+        transition: all 400ms ease;
+        width: 530px;
+        height: 600px;
+        margin-left: 40px;
+    }
+    
+    .q2note ul{
+        list-style: none;
+        font-size: 14px;
+    }
+    
+    .q2note ul li{
+        margin: 30px 0;
+    }
+    
+    .catsquat{
+        width: 80%;
+        margin-left: 10px;
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     .q2note{
         font-family: Roboto;
@@ -925,6 +1090,35 @@ body{
     margin-right: -200px;
 }
 
+@media screen and (max-width:500px) {
+    .road3{
+        justify-content:right;
+        padding-right: 60px;
+    }
+    
+    .q3note{
+        padding-right: 20px;
+        padding-left: -10px;
+        width: 60%;
+    }
+    
+    .q3note ul{
+        list-style: none;
+        font-size: 14px;
+    }
+    
+    .q3note ul li{
+        margin: 10px 0;
+    }
+    
+    .catface{
+        width: 50%;
+        margin-right: 0;
+        margin-left: 90px;
+    }
+    
+}
+
 @media screen and (max-width: 600px) {
     .q3note{
         font-family: Roboto;
@@ -1002,7 +1196,7 @@ body{
     font-family: Roboto;
     font-weight: bolder;
     color: white;
-    text-shadow: 2px 6px rgb(37, 36, 36);
+    text-shadow: 2px 6px rgb(0, 0, 0);
     z-index: 2;
     flex: 1;
     margin-right: -350px;
@@ -1043,13 +1237,14 @@ body{
         border-top: 1px solid black;
         margin-top: 100px;
         padding-top: 30px;
-        background-color: black;
+        padding-right: 40px;
+        background-color: rgb(0, 0, 0);
         border-top: 1px solid white;
         margin-bottom: 0;
         padding-bottom: 10px;
     }
     .swapcat{
-        width: 200px;
+        width: 180px;
     }
     .jijiswap{
         font-family: Roboto;
@@ -1057,16 +1252,16 @@ body{
         color: white;
         text-shadow: 2px 6px rgb(37, 36, 36);
         flex: 1;
-        margin-right: -140px;
+        margin-right: -160px;
     }
     
     .p2{
-        font-size: 90px;
+        font-size: 80px;
     }
     
     .p1{
         margin-top: 30px;
-        font-size: 90px;
+        font-size: 80px;
         margin-bottom: -40px;
     }
     
@@ -1077,10 +1272,10 @@ body{
     .paragraphs{
         font-size: 14px;
         font-family: Roboto;
-        width: 280px;
+        width: 250px;
         color: white;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 80px;
         margin-top: -70px;
     }
     
@@ -1612,7 +1807,21 @@ body{
 }
 
 @media screen and (max-width: 500px) {
-   .support p{
+    .tg{
+        width: 60px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+    .twitter{
+        width: 60px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+   
+    .support p{
     font-size: 20px;
    }
    .support{
@@ -1622,6 +1831,7 @@ body{
     font-size: 12px;
     padding-top: 20px;
     text-align: center;
+    margin-left: -70px;
    }
    .copyright{
     margin-bottom: 4px;
@@ -1630,52 +1840,52 @@ body{
    .firstrow{
     display:flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin: 0;
     margin-top: 10px;
-    margin-left: -80px;
+    margin-left: 0;
 }
 
 .secondrow{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     margin-top: -40px;
-    margin-left: -80px;
+    margin-left: 0;
 }
 
 .dex{
-    margin-left: -10px;
+    margin-left: 0;
 }
 
 .blaze{
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 .bscpic{
-    width: 100px;
+    width: 90px;
 }
 
 .cakepic{
-    width: 200px;  
+    width: 180px;  
 }
 
 .geckopic{
-    width: 140px;
+    width: 110px;
 }
 
 .dexpic{
-    width: 100px;
+    width: 90px;
 }
 
 .blazepic{
-    width: 100px;
+    width: 85px;
 }
 
 .cmcpic{
-    width: 120px;
+    width: 100px;
 }
 
 
