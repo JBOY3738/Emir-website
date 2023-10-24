@@ -19,7 +19,8 @@ new Chart(myChart, {
     },
     options: {
         borderWidth: 1,
-        borderRadius: 2,
+        borderRadius: 0,
+        radius: 90,
     },
 });
 
