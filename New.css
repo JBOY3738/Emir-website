@@ -63,7 +63,7 @@ body{
 
 @media screen and (max-width: 500px) {
     .kuroneko{
-        font-size: 30px;
+        font-size: 40px;
     }
     
     .kuro-container{
@@ -72,19 +72,19 @@ body{
     }
     
     .description{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400px;
     }
     
     .description-container{
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-top: -20px;
     }
     
     
     .img5{
-        width: 50%;
+        width: 60%;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -216,7 +216,7 @@ body{
 
 @media screen and (max-width: 500px) {
     .img1{
-        width: 70%;
+        width: 90%;
         margin-top: 30px;
         margin-bottom: 20px;
         border-radius: 50px;
@@ -239,12 +239,12 @@ body{
     }
     
     .text1{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
     .img2{
-        width: 70%;
+        width: 90%;
         margin-bottom: 20px;
     }
     .sixthline{
@@ -256,12 +256,12 @@ body{
     }
     
     .text2{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
     .img3{
-        width: 70%;
+        width: 90%;
         border-radius: 50px;
     }
     
@@ -274,18 +274,18 @@ body{
     }
     
     .text3{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
     .img4{
-        width: 70%;
+        width: 90%;
         display: block;
         border-radius: 50px;
     }
     
     .text4{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     
@@ -359,9 +359,9 @@ body{
         display: flex;
         align-items: center;
         justify-content: left;
-        gap: 30;
+        gap: 10;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
         margin-bottom: 0;
         margin-top: 0;
         padding-right: 40px;
@@ -372,7 +372,7 @@ body{
         text-transform: uppercase;
         margin-left: -25px;
         font-weight: bold;
-        float: left;
+       
     }
 }
 
@@ -558,6 +558,17 @@ body{
 }
 
 @media screen and (max-width: 500px) {
+    .taxes{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .buy{
         width: 50%;
     }
@@ -742,6 +753,7 @@ body{
 .roadmap{
     margin-top: 200px;
     padding-top: 100px;
+    border: none;
 }
 
 .road{
@@ -811,12 +823,14 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: left;
-        padding-right: 25px;
+        padding-right: 15px;
     }
     
     .cat1{
         rotate: 270deg;
         width: 100%;
+        margin: 0;
+        margin-left: -10px;
     }
     
     .q1note{
@@ -994,7 +1008,7 @@ body{
         margin-top: 80px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding-left: 20px;
     }
@@ -1021,8 +1035,8 @@ body{
     }
     
     .catsquat{
-        width: 70%;
-        margin-right: -170px;
+        width: 80%;
+        margin-right: -160px;
     }
     
 }
@@ -1141,7 +1155,7 @@ body{
 
 @media screen and (max-width:500px) {    
 .road3{
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1218,11 +1232,9 @@ body{
 
 
 .swap{
-    border-top: 1px solid rgb(255, 255, 255);
     margin-top: 200px;
     padding-top: 100px;
     background-color: black;
-    border-top: 1px solid white;
 }
 
 .swapcat{
@@ -1302,6 +1314,7 @@ body{
         text-shadow: 2px 6px rgb(37, 36, 36);
         flex: 1;
         margin-right: -120px;
+        margin-top: 20px;
     }
     
     .p2{
@@ -1324,8 +1337,8 @@ body{
         width: 250px;
         color: white;
         text-align: left;
-        margin-left: 80px;
-        margin-top: -70px;
+        margin-left: 50px;
+        margin-top: -30px;
     }
     
     .paragraphs p{
@@ -1712,8 +1725,7 @@ body{
 }
 
 .contact{
-    border-top: 1px solid rgb(255, 255, 255);
-    padding-top: 100px;
+    padding-top: 140px;
 }
 
 .community{
@@ -1776,20 +1788,19 @@ body{
 }
 
 .support{
-    padding-top: 40px;
-    margin-top: 200px;
     background-color:black;
     padding-left: 120px;
     padding-right: 120px;
 }
 
-.support p{
-    margin-top: 40px;
+.support-p{
+    margin-top: 200px;
+    margin-bottom: -50px;
     font-size: 50px;
     font-family: Roboto;
     text-align: center;
     font-weight: bold;
-    color: white
+    color: rgb(88, 84, 84)
 }
 
 .copyright{
@@ -1868,15 +1879,15 @@ body{
     }
     
    
-    .support p{
-    font-size: 20px;
+    .support-p{
+    font-size: 22px;
    }
    .support{
     padding-top: 3px;
     background-color: rgb(0, 0, 0);
    }
    .copyright p{
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 20px;
     text-align: center;
    }
