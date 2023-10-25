@@ -382,7 +382,7 @@ body{
 
 .token-stats .details .percentage{
     font-weight: 700px;
-    color: #e63946;
+    color: #d4a729;
 }
 
 @media screen and (max-width: 500px) {
@@ -399,20 +399,23 @@ body{
     }
     .token-stats{
         font-family: Roboto;
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: left;
-        gap: 10;
+        gap: 0;
         margin: 0 auto;
-        width: 90%;
+        width: 85%;
         margin-bottom: 0;
         margin-top: 0;
         padding-right: 40px;
         padding-left: 0;
+        padding-bottom: 20px;
+        box-shadow: 2px 6px 14px -2px rgba(255, 254, 254, 0.3);
     } 
     .token-stats .details ul li{
-        font-size: 11px;
+        font-size: 16px;
         text-transform: uppercase;
         margin-left: -45px;
         font-weight: bold;
@@ -487,7 +490,7 @@ body{
     .supply{
         font-family: Roboto;
         font-weight: bold;
-        box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
+        box-shadow: 2px 6px 14px -2px rgba(255, 254, 254, 0.3);
         border-radius: 100%;
         padding: 20px;
         padding-bottom: 15px;
@@ -620,6 +623,7 @@ body{
         padding-right: 18px;
         padding-top: 20px;
         height: 280px;
+        box-shadow: 2px 6px 14px -2px rgba(255, 254, 254, 0.3);
     }
     
     
@@ -644,6 +648,7 @@ body{
         padding-left: 18px;
         padding-top: 20px;
         height: 280px;
+        box-shadow: 2px 6px 14px -2px rgba(255, 254, 254, 0.3);
     }
     
     .selltax{
@@ -755,6 +760,19 @@ body{
     padding-right: 40px;
 }
 
+.q1cat{
+    position: relative;
+}
+
+.quarter1{
+    color: white;
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+    position: absolute;
+    top: -40%;
+}
+
 .cat1{
     rotate: 270deg;
     height: 350px;
@@ -807,6 +825,15 @@ body{
         justify-content: center;
         padding-right: 15px;
     }
+
+    .quarter1{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: -40%;
+        left: 20%;
+    }
     
     .cat1{
         rotate: 270deg;
@@ -849,6 +876,16 @@ body{
         width: 100%;
         margin-right: -100px;
     }
+
+    
+    .quarter1{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: -40%;
+        left: 20%;
+    }
     
     .q1note{
         font-family: Roboto;
@@ -883,6 +920,16 @@ body{
     .cat1{
         width: 100%;
         margin-right: -100px;
+    }
+
+    
+    .quarter1{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: -40%;
+        left: 20%;
     }
     
     .q1note{
@@ -919,6 +966,17 @@ body{
         width: 100%;
         margin-right: -100px;
     }
+
+
+    
+    .quarter1{
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        position: absolute;
+        top: -40%;
+        left: 20%;
+    }
     
     .q1note{
         font-family: Roboto;
@@ -944,13 +1002,25 @@ body{
 }
 
 .road2{
-    margin-top: 80px;
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 40px;
 }
 
+.catsquat-div{
+    position: relative;
+}
+
+.quarter2{
+    color: white;
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+}
 
 .q2note{
     font-family: Roboto;
@@ -985,12 +1055,21 @@ body{
 
 @media screen and (max-width: 500px) {
     .road2{
-        margin-top: 100px;
+        margin-top: 200px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding-left: 20px;
+    }
+
+    .quarter2{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        left: 30%;
+        top: -20%;
     }
     
     .q2note{
@@ -1022,7 +1101,18 @@ body{
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 501px){
+    .quarter2{
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        left: 30%;
+        top: -50%;
+    }
+}
+
+@media screen and (max-width: 600px){
     .q2note{
         font-family: Roboto;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
@@ -1046,6 +1136,15 @@ body{
 }
 
 @media screen and (max-width: 700px) and (min-width: 601px) {
+    .quarter2{
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        position: absolute;
+        left: 30%;
+        top: -50%;
+    }
+   
     .q2note{
         font-family: Roboto;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
@@ -1069,6 +1168,15 @@ body{
 }
 
 @media screen and (max-width: 1080px) and (min-width: 701px) {
+    .quarter2{
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        position: absolute;
+        left: 30%;
+        top: -55%;
+    }
+    
     .q2note{
         font-family: Roboto;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
@@ -1094,12 +1202,26 @@ body{
 
 
 .road3{
-    margin-top: 80px;
+    margin-top: 160px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: right;
     padding-right: 40px;
+}
+
+.catface-div{
+    position: relative;
+}
+
+.quarter3{
+    color: white;
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+    position: absolute;
+    right: 10%;
+    top: -45%;
 }
 
 .q3note{
@@ -1135,7 +1257,17 @@ body{
 }
 
 @media screen and (max-width:500px) {    
-.road3{
+    .quarter3{
+        color: white;
+        font-size: 50px;
+        font-family: Roboto;
+        font-weight: bold;
+        position: absolute;
+        right: 15%;
+        top: -85%;
+    }
+
+    .road3{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -1165,6 +1297,18 @@ body{
     
 }
 
+@media screen and (max-width: 600px) and (min-width: 501px){
+    .quarter3{
+        color: white;
+        font-size: 50px;
+        font-family: Roboto;
+        font-weight: bold;
+        position: absolute;
+        right: 15%;
+        top: -45%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .q3note{
         font-family: Roboto;
@@ -1189,6 +1333,16 @@ body{
 }
 
 @media screen and (max-width: 700px) and (min-width: 601px) {
+    .quarter3{
+        color: white;
+        font-size: 50px;
+        font-family: Roboto;
+        font-weight: bold;
+        position: absolute;
+        right: 15%;
+        top: -45%;
+    }
+    
     .q3note{
         font-family: Roboto;
         box-shadow: 2px 6px 15px -2px rgb(255, 255, 255);
@@ -1208,6 +1362,18 @@ body{
 
     .q3note ul li{
         margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 701px){
+    .quarter3{
+        color: white;
+        font-size: 60px;
+        font-family: Roboto;
+        font-weight: bold;
+        position: absolute;
+        right: 15%;
+        top: -65%;
     }
 }
 
@@ -1707,7 +1873,13 @@ body{
 
 .contact{
     padding-top: 140px;
+    padding-bottom: 80px;
     margin-top: 100px;
+    background-color: rgba(48, 48, 48, 0.904);
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .community{
@@ -1785,8 +1957,10 @@ body{
 }
 
 .copyright{
+    padding-top: 20px;
     margin-top: 100px;
     padding-bottom: 40px;
+    background-color: rgba(48, 48, 48, 0.904);
 }
 
 .copyright p{
